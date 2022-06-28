@@ -45,3 +45,62 @@ db.mds7103.aggregate(
 //     { $limit: 1 }
     ]
 )
+
+// mayor o menor
+// https://www.mongodb.com/docs/manual/reference/operator/query/gt/
+// https://www.mongodb.com/docs/manual/reference/operator/query/lt/
+db.mds7103.aggregate(
+    [
+        {
+            $match : { cantidad : { $gt: 1000 } }
+        },
+        {
+            $group:
+                {
+                    _id: "$nombre",
+                    totalAmount: { $sum: { $multiply: [ "$cantidad", 2 ] } },
+                    count: { $sum: 1 },
+                }
+        },
+    ]
+)
+
+// like
+db.mds7103.aggregate(
+    [
+        {
+            $match : { nombre : /arb/ }
+        },
+        {
+            $group:
+                {
+                    _id: "$nombre",
+                    totalAmount: { $sum: { $multiply: [ "$cantidad", 2 ] } },
+                    count: { $sum: 1 },
+                }
+        },
+    ]
+)
+
+// buscar adentro de un array y usamos or en match
+db.mds7103.aggregate(
+    [
+        {
+            $match : {
+                $or: [
+                  {  nombre : /arb/  },
+                  {  nombre : /ip/  },
+                ]
+            }
+        },
+        {
+            $group:
+                {
+                    _id: "$nombre",
+                    totalAmount: { $sum: { $multiply: [ { $sum:"$otro_json.numeros"}, 2 ] } },
+                    count: { $sum: 1 },
+                    suma_otro_json_numeros: { $sum: {$sum:"$otro_json.numeros"} }
+                }
+        },
+    ]
+)
