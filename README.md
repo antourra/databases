@@ -1,7 +1,11 @@
 # databases
 Repositorio del curso de Bases de Datos
 
-## 1. Instalaciones
+# Tabla de Contenidos
+1. [Instalaciones](#instalaciones)
+2. [Creando Tablas, Llaves Primarias y Llaves Foráneas en MariaDB usando DataGrip](#tablas)
+
+## 1. Instalaciones <a name="instalaciones"></a>
 ### 1.1. MariaDB
 
 > MariaDB es un sistema de gestión de bases de datos derivado de MySQL con licencia GPL (General Public License). Es desarrollado por Michael (Monty) Widenius —fundador de MySQL—, la fundación MariaDB y la comunidad de desarrolladores de software libre.
@@ -28,7 +32,7 @@ https://es.wikipedia.org/wiki/JetBrains#DataGrip
 
 [![IMAGE_ALT](https://img.youtube.com/vi/zQXqXtxcSwA/0.jpg)](https://www.youtube.com/watch?v=zQXqXtxcSwA)
 
-## 2. Creando Tablas, Llaves Primarias y Llaves Foráneas en MariaDB usando DataGrip
+## 2. Creando Tablas, Llaves Primarias y Llaves Foráneas en MariaDB usando DataGrip <a name="tablas"></a>
 
 En este video se muestra como se crean tablas y relaciones entre estas.
 
