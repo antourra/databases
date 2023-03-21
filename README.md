@@ -34,6 +34,12 @@ https://es.wikipedia.org/wiki/JetBrains#DataGrip
 
 ## 2. Creando Tablas, Llaves Primarias y Llaves Foráneas en MariaDB usando DataGrip <a name="tablas"></a>
 
-En este video se muestra como se crean tablas y relaciones entre estas.
+- En este video se muestra como se crean tablas y relaciones entre estas.
 
 [![IMAGE_ALT](https://img.youtube.com/vi/21GzK3uI1UM/0.jpg)](https://youtu.be/21GzK3uI1UM)
+
+-  Restaurando base de datos en MariaDB/MySQL usando DataGrip 
+
+[![IMAGE_ALT](https://img.youtube.com/vi/bzQPVh_Rbn4/0.jpg)](https://youtu.be/bzQPVh_Rbn4)
+
+
