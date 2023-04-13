@@ -4,7 +4,9 @@ Repositorio del curso de Bases de Datos
 # Tabla de Contenidos
 1. [Instalaciones](#instalaciones)
 2. [Creando Tablas, Llaves Primarias y Llaves Foráneas en MariaDB usando DataGrip](#tablas)
-Apéndice 1. [Restaurar y Exportar en MariaDB con DataGrip](#dumps)
+
+# Apéndices
+1. [Restaurar y Exportar en MariaDB con DataGrip](#dumps)
 
 ## 1. Instalaciones <a name="instalaciones"></a>
 ### 1.1. MariaDB
