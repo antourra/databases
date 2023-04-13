@@ -4,6 +4,7 @@ Repositorio del curso de Bases de Datos
 # Tabla de Contenidos
 1. [Instalaciones](#instalaciones)
 2. [Creando Tablas, Llaves Primarias y Llaves Foráneas en MariaDB usando DataGrip](#tablas)
+Apéndice 1. [Restaurar y Exportar en MariaDB con DataGrip](#dumps)
 
 ## 1. Instalaciones <a name="instalaciones"></a>
 ### 1.1. MariaDB
@@ -37,6 +38,8 @@ https://es.wikipedia.org/wiki/JetBrains#DataGrip
 - En este video se muestra como se crean tablas y relaciones entre estas.
 
 [![IMAGE_ALT](https://img.youtube.com/vi/21GzK3uI1UM/0.jpg)](https://youtu.be/21GzK3uI1UM)
+
+## Apéndice 1. Restaurando y Exportando en MariaDB con DataGrip<a name="dumps"></a>
 
 -  Restaurando base de datos en MariaDB/MySQL usando DataGrip 
 
