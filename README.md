@@ -43,6 +43,22 @@ https://es.wikipedia.org/wiki/JetBrains#DataGrip
 
 ## Apéndice 1. Restaurando y Exportando en MariaDB con DataGrip<a name="dumps"></a>
 
+- Exportar estructura y datos (dump) de una base de datos en MariaDB/MySQL usando DataGrip
+
+En este video se ve como exportar completamente una base de datos en MariaDB/MySQL, es decir, se incluyen todas las estructuras, y los datos que se tengan en las tablas.
+
+[![IMAGE_ALT](https://img.youtube.com/vi/ixIOIHXhfJ0/0.jpg)](https://youtu.be/ixIOIHXhfJ0)
+
+- Exportar estructura de una tabla o varias tablas en MariaDB/MySQL usando DataGrip
+
+[![IMAGE_ALT](https://img.youtube.com/vi/Eib51fDfdFU/0.jpg)](https://youtu.be/Eib51fDfdFU)
+
+- Exportar datos de MariaDB/MySQL usando DataGrip
+
+En este video se muestra como exportar datos, en particular generando INSERTs.
+
+[![IMAGE_ALT](https://img.youtube.com/vi/Nv9-qITIgpQ/0.jpg)](https://youtu.be/Nv9-qITIgpQ)
+
 -  Restaurando base de datos en MariaDB/MySQL usando DataGrip 
 
 [![IMAGE_ALT](https://img.youtube.com/vi/bzQPVh_Rbn4/0.jpg)](https://youtu.be/bzQPVh_Rbn4)
