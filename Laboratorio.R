@@ -102,7 +102,38 @@ sum(data_pro2$download)/2950
 
 sum(data_both2$download)/5224
 
+#------
+#3)
+# Calcular ITT
+ITT_econ <- mean(data_econ$download) - mean(data_control$download)
+ITT_pro <- mean(data_pro$download) - mean(data_control$download)
+ITT_both <- mean(data_both$download) - mean(data_control$download)
 
+cat("ITT Economic:", ITT_econ, "\n")
+cat("ITT Prosocial:", ITT_pro, "\n")
+cat("ITT Both:", ITT_both, "\n")
+
+# Calcular ITTd (solo para los que abrieron el mensaje)
+ITTd_econ <- mean(data_econ2$download) - mean(data_control$download[data_control$whatsapp_received == 1])
+ITTd_pro <- mean(data_pro2$download) - mean(data_control$download[data_control$whatsapp_received == 1])
+ITTd_both <- mean(data_both2$download) - mean(data_control$download[data_control$whatsapp_received == 1])
+
+cat("ITTd Economic:", ITTd_econ, "\n")
+cat("ITTd Prosocial:", ITTd_pro, "\n")
+cat("ITTd Both:", ITTd_both, "\n")
+
+# Calcular CACE (ajustado por la tasa de cumplimiento)
+compliance_rate_econ <- mean(data_econ$whatsapp_received)
+compliance_rate_pro <- mean(data_pro$whatsapp_received)
+compliance_rate_both <- mean(data_both$whatsapp_received)
+
+CACE_econ <- ITT_econ / compliance_rate_econ
+CACE_pro <- ITT_pro / compliance_rate_pro
+CACE_both <- ITT_both / compliance_rate_both
+
+cat("CACE Economic:", CACE_econ, "\n")
+cat("CACE Prosocial:", CACE_pro, "\n")
+cat("CACE Both:", CACE_both, "\n")
 
 #------
 #4)
